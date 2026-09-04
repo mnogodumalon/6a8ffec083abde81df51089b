@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "kursanmeldung",
+      "component": "Kursanmeldung",
+      "title": "Kursanmeldung",
+      "endpoints": [
+        {
+          "entity": "kursverwaltung",
+          "op": "list",
+          "fields": [
+            "kursname",
+            "kursdatum",
+            "ort",
+            "max_teilnehmer"
+          ],
+          "scope": "r.v_kursdatum >= now()",
+          "scope_description": "zeigt nur Kurse, deren Datum in der Zukunft liegt",
+          "max_records": 500
+        },
+        {
+          "entity": "kursanmeldung_fuer_interessenten",
+          "op": "create",
+          "fields": [
+            "kurs",
+            "vorname",
+            "nachname",
+            "email",
+            "telefon"
+          ]
+        }
+      ]
+    }
+  ]
+}

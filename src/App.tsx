@@ -10,6 +10,8 @@ import DashboardReady from '@/pages/DashboardReady';
 import PublicPagesAdmin from '@/pages/PublicPagesAdmin';
 import IntentsAdmin from '@/pages/IntentsAdmin';
 // <custom:imports>
+const IntentMitgliedFuerKursAnmeldenPage = lazy(() => import('@/pages/intents/MitgliedFuerKursAnmeldenPage'));
+import { DashboardSkeleton } from '@/components/DashboardStates';
 // </custom:imports>
 
 // Lazy: public pages live outside <Layout> and only load on /#/public/:slug —
@@ -77,6 +79,7 @@ export default function App() {
                 <Route path="verwaltung/ablaeufe" element={<IntentsAdmin />} />
                 <Route path="verwaltung/oeffentliche-seiten" element={<PublicPagesAdmin />} />
                 {/* <custom:routes> */}
+                <Route path="intents/mitglied-kurs-anmelden" element={<Suspense fallback={<DashboardSkeleton />}><IntentMitgliedFuerKursAnmeldenPage /></Suspense>} />
                 {/* </custom:routes> */}
                 {/* An unknown hash (a bookmark from before a rebuild renamed the
                     flows, a mistyped link) must not be a blank page. */}
