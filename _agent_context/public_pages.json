@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "kursanmeldung",
+      "type": "custom",
+      "entity": "kursanmeldung_fuer_interessenten",
+      "title": "Kursanmeldung",
+      "published": false,
+      "fields": [
+        "kurs",
+        "vorname",
+        "nachname",
+        "email",
+        "telefon"
+      ]
+    }
+  ]
+}

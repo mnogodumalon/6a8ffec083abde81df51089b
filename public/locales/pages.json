@@ -1,0 +1,26 @@
+{
+  "pages": {
+    "en": {
+      "Anmeldung hinzufügen": "Add Registration",
+      "Anmeldungen (7 Tage)": "Registrations (7 Days)",
+      "Anmeldungen pro Kurs": "Registrations per Course",
+      "Heute: {0} — {1} Anmeldungen": "Today: {0} — {1} Registrations",
+      "Interessent": "Prospect",
+      "Kommende Kurse": "Upcoming Courses",
+      "Kurs öffnen": "Open Course",
+      "Mitglied": "Member",
+      "Neue Anmeldungen (7 Tage)": "New Registrations (7 Days)",
+      "Neuer Kurs": "New Course",
+      "Noch keine Anmeldungen in den letzten 7 Tagen": "No registrations in the last 7 days",
+      "Nächster Kurs: {0} am {1}": "Next Course: {0} on {1}",
+      "Unbekannt": "Unknown",
+      "Unbekannter Kurs": "Unknown Course",
+      "ist ausgebucht ({0}/{1} Plätze)": "is fully booked ({0}/{1} spots)",
+      "{0} Mitglieder, noch keine Kurse geplant": "{0} Members, no courses scheduled yet",
+      "{0} — verschoben": "{0} — postponed",
+      "{0}/{1} Teilnehmer": "{0}/{1} Participants",
+      "Öffnen": "Open"
+    }
+  },
+  "v": 1
+}

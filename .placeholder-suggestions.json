@@ -1,0 +1,36 @@
+{
+  "KursverwaltungDialog.tsx": {
+    "kursname": "z. B. Yoga für Anfänger",
+    "beschreibung": "Inhalt, Dauer, Voraussetzungen, besondere Hinweise...",
+    "kursdatum": "Wann findet der Kurs statt?",
+    "ort": "z. B. Vereinsheim Saal 1",
+    "max_teilnehmer": "z. B. 20"
+  },
+  "MitgliederverwaltungDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Mustermann",
+    "geburtsdatum": "Wann wurden Sie geboren?",
+    "email": "z. B. max@beispiel.de",
+    "telefon": "z. B. 030 123456789",
+    "strasse": "z. B. Hauptstraße",
+    "hausnummer": "z. B. 42",
+    "postleitzahl": "z. B. 10115",
+    "ort": "z. B. Berlin",
+    "beitragsart": "Wähle eine Beitragsart",
+    "mitgliedschaft_von": "Ab wann ist die Mitgliedschaft gültig?",
+    "mitgliedschaft_bis": "Bis wann ist die Mitgliedschaft gültig?",
+    "bemerkungen": "Besonderheiten, Notizen, Hinweise..."
+  },
+  "MitgliederKursanmeldungDialog.tsx": {
+    "mitglied": "Welches Mitglied meldet sich an?",
+    "kurs": "An welchem Kurs teilnehmen?",
+    "anmerkungen": "Spezielle Wünsche, Einschränkungen, Notizen..."
+  },
+  "KursanmeldungFuerInteressentenDialog.tsx": {
+    "kurs": "An welchem Kurs möchten Sie teilnehmen?",
+    "vorname": "z. B. Anna",
+    "nachname": "z. B. Schmidt",
+    "email": "z. B. anna@beispiel.de",
+    "telefon": "z. B. 030 987654321"
+  }
+}

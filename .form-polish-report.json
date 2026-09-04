@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "Kursverwaltung": {
+      "placeholders_set": 5,
+      "defaults_keys": ["kursdatum", "max_teilnehmer"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten für Kurse (Name, Datum, Ort, Kapazität). Keine Preise, keine Berechnungen, keine Zeitabhängigkeiten zwischen Feldern."
+    },
+    "Mitgliederverwaltung": {
+      "placeholders_set": 13,
+      "defaults_keys": ["mitgliedschaft_von", "mitgliedschaft_bis", "beitragsart"],
+      "computed_keys": [],
+      "reason": "Reine Personenstammdaten mit Adresse und Mitgliedschaftszeitraum. Keine numerischen Felder, keine Berechnungen, keine Preisabhängigkeiten."
+    },
+    "Mitglieder-Kursanmeldung": {
+      "placeholders_set": 3,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Verknüpfungsentity zwischen Mitglieder und Kurse. Keine eigenen numerischen Felder, keine Berechnungen. Das max_teilnehmer im Kurs-Target ist nur eine Referenzgröße für UI-Validierung, nicht berechenbar."
+    },
+    "Kursanmeldung für Interessenten": {
+      "placeholders_set": 5,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Vereinfachte externe Kursanmeldung für Nicht-Mitglieder. Reine Personenstammdaten mit Kursreferenz. Keine numerischen Felder, keine Berechnungen."
+    }
+  }
+}
